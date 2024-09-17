@@ -1,0 +1,31 @@
+body {
+  background-image: url(img/fors.png);
+  padding: 20px;
+}
+
+.perm {
+  font-family: "Permanent Marker", cursive;
+  font-size: 60px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+p,
+a {
+  font-family: Helvetica, sans-serif;
+  font-weight: 1;
+  color: white;
+  line-height: 30px;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-image: url(img/fors.png);
+    padding: 60px;
+    background-size: cover; /* Sørger for at billedet dækker hele skærmen */
+    background-position: center; /* Centrerer billedet */
+    background-repeat: no-repeat;
+  }
+}
