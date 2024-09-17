@@ -1,5 +1,8 @@
 body {
   background-image: url(img/fors.png);
+  background-size: cover; /* Sørger for at billedet dækker hele skærmen */
+  background-position: center; /* Centrerer billedet */
+  background-repeat: no-repeat;
   padding: 20px;
 }
 
