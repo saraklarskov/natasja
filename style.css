@@ -20,6 +20,14 @@ a {
   line-height: 30px;
 }
 
+.af {
+  display: flex;
+  align-items: end;
+  font-size: 10px;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
 @media (min-width: 800px) {
   body {
     background-image: url(img/fors.png);
@@ -27,5 +35,10 @@ a {
     background-size: cover; /* Sørger for at billedet dækker hele skærmen */
     background-position: center; /* Centrerer billedet */
     background-repeat: no-repeat;
+  }
+
+  .perm {
+    font-size: 80px;
+    margin-top: -40px;
   }
 }
