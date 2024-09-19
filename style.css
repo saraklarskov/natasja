@@ -6,7 +6,7 @@ body {
 }
 
 .perm {
-  font-family: "Permanent Marker", cursive;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-style: normal;
   display: flex;
@@ -47,6 +47,8 @@ a {
   .perm {
     font-size: 80px;
     margin-top: -40px;
+    display: flex;
+    justify-content: center;
   }
 
   .div_1 {
